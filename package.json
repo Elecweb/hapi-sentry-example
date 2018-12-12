@@ -1,0 +1,25 @@
+{
+  "name": "hapi-sentry-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elecweb/hapi-sentry-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elecweb/hapi-sentry-example/issues"
+  },
+  "homepage": "https://github.com/Elecweb/hapi-sentry-example#readme",
+  "dependencies": {
+    "dot-env": "^0.0.1",
+    "dotenv": "^6.2.0",
+    "hapi": "^17.8.1",
+    "hapi-sentry": "^1.0.1"
+  }
+}
