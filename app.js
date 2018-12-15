@@ -6,7 +6,7 @@ require("dotenv").config();
 
 const setup = async () => {
   const server = Hapi.server({
-    port: 3000,
+    port: 8080,
     host: "localhost"
   });
 
@@ -38,7 +38,7 @@ const setup = async () => {
           "useful-information",
           "this is intend mistake :P"
         );
-        throw Error("error has founded!!!!");
+        throw Error("error is bad");
       }
       return "Hello, " + encodeURIComponent(name) + "!";
     }
